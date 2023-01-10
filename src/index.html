@@ -7,12 +7,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Belajar Tailwindcss</title>
     <link rel="stylesheet" href="../dist/output.css">
+    <style>
+        * {
+            border: 1px solid red;
+        }
+    </style>
 </head>
 
 <body>
-    <h1 class="bg-blue-400 text-3xl font-bold underline">
-        Hello world!
-    </h1>
+    <h1 class="text-2xl">Belajar Tailwindcss</h1>
+
+    <section class="mb-10">
+        <h2 class="font-bold">1. Spacing</h2>
+        <div class="m-4 md:mt-[100px]">margin</div>
+        <div class="pl-8">padding</div>
+    </section>
+
+    <section class="mb-10">
+        <h2 class="font-bold">2. Sizing</h2>
+        <div class="w-10 hover:w-1/2">Widt</div>
+        <div class="h-20">Height</div>
+    </section>
+
+    <section class="font-serif w-2/3 mx-auto mb-32">
+        <h2
+            class="w-[200px] mx-auto text-center font-bold text-xl bg-gradient-to-r from-sky-500 via-red-500 to-indigo-500 text-transparent bg-clip-text ">
+            3.
+            Typography
+        </h2>
+        <div class="text-sm">By Imdadu Rohman, 10 January 2023</div>
+        <p class="text-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi quod repudiandae error
+            quibusdam corporis
+            consequatur iste est sed qui reiciendis nobis, saepe sapiente quidem voluptatem expedita illum! Laboriosam,
+            veniam architecto? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque provident vel
+            consequatur amet est optio
+            minus eveniet, modi odio, officiis vitae quis impedit quasi ea illum enim odit! Incidunt, corporis!</p>
+        <p class="font-bold text-red-800">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, similique.
+        </p>
+        <p class="text-right">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci sapiente ad aperiam
+            porro ut quis
+            blanditiis culpa! Iusto, consectetur cumque.</p>
+    </section>
 
 </body>
 
